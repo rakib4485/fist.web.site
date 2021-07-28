@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    /* height: 500px; */
+    padding-left: 5%;
+    margin-bottom: 30px;
+}
+.half-width img{
+    width: 100%;
+}
+.orenge-text{
+    color:orange
+}
+.button{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg,purple,orange);
+}
+.dream-section{
+    display: flex;
+    margin-top: 20px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-section{
+    /* height: 500px; */
+     background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card-div{
+    /* display: flex; */
+   
+}
+.single-exp{
+    width: 35%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80%;
+}
+#first-box{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#second-box{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+footer p{
+    text-align: center;
+}
